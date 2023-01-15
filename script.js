@@ -22,9 +22,15 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
+//1
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '10');
 
+//2
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
 
-let D = 'Sashs';
-
-alert('ggg');
-alert(D);
+};
